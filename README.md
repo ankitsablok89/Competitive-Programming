@@ -27,3 +27,13 @@ The problem was an easy mathematical problem essentially asking the question "ho
 4) https://codeforces.com/problemset/problem/231/A [EASY]
 
 The problem is an easy one where we just need to implement what has been asked in the problem statement. As is evident the string input to us is a string of 1's and 0's hence we just need to comput the sum of the numbers in the string and check if that number is greater than 1 and if it is then we need to increment the number of problems that can be solved by 1. In conclusion just output the number of solved problems.
+
+5) https://codeforces.com/problemset/problem/50/A [EASY]
+
+This problem is an easy one too where we need to figure out the number of dominos required to cover the entire M x N board. As we have M x N cells to cover the board and we have unlimited number of 2 x 1 dominos we only need to determine the number i.e. (M x N)/2 to find out the number of dominos required to cover the board without violating the rules. The ways to cover are as follows -:
+
+a) If both M and N are even then the board can be covered entirely with the dominos.
+
+b) If both M and N are odd then we could cover the entire board with the tiles with the exception of leaving one cell empty in the board.
+
+c) If we have a mix of odd and even in M & N then again the entire board could be covered with the tiles.
