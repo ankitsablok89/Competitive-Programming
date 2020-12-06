@@ -41,3 +41,7 @@ c) If we have a mix of odd and even in M & N then again the entire board could b
 6) https://codeforces.com/problemset/problem/281/A [EASY]
 
 This problem tests out how well do you know your ASCII notations and their respective integer values as they are represented in the computers. The difference between a lowecase and uppercase character in ASCII system is 32 hence when we check the first character of the string and if we find it to be lowercase we can easily subtract 32 from it to convert it into uppercase.
+
+7) https://codeforces.com/problemset/problem/1325/B [EASY]
+
+The problem can be reduced to a problem of finding distinct elements in the input array given because the we need to copy the sequence input in the array "n" times i.e. the number of elements in the input array, the longest increasing subsequence can be formed by picking the elements in the concatenated arrays starting from the smallest to the largest i.e. sorted subsequence.
