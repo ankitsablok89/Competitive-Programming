@@ -37,3 +37,7 @@ a) If both M and N are even then the board can be covered entirely with the domi
 b) If both M and N are odd then we could cover the entire board with the tiles with the exception of leaving one cell empty in the board.
 
 c) If we have a mix of odd and even in M & N then again the entire board could be covered with the tiles.
+
+6) https://codeforces.com/problemset/problem/281/A [EASY]
+
+This problem tests out how well do you know your ASCII notations and their respective integer values as they are represented in the computers. The difference between a lowecase and uppercase character in ASCII system is 32 hence when we check the first character of the string and if we find it to be lowercase we can easily subtract 32 from it to convert it into uppercase.
