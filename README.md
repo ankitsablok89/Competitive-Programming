@@ -18,4 +18,8 @@ b) Reading the "n" input strings using "getline".
 
 c) Calculating the length of the input strings and checking the condition if the length of any of those strings is greater than 10 strictly.
 
-d) Output the first character, the number "length - 2" and the last character if the word is a way too long word to the standard output. 
+d) Output the first character, the number "length - 2" and the last character if the word is a way too long word to the standard output.
+
+3) https://codeforces.com/problemset/problem/1/A [EASY]
+
+The problem was an easy mathematical problem essentially asking the question "how many squares are required to cover a rectangle completely wherein squares cannot be broken up". The solution essentially required us to know how many squares would be required to cover the length of the rectangle which can be determined by the number n/a and how many squares are required to cover the breadth of the rectangle which is determined by m/a. If the above two numbers are not whole numbers we round them up to the smallest whole number that is greater than the value. The end result is just a multiplication of two quantities. It is recommended that we study about how to perform the rounding procedure or one can also use the "ceil" function in <cmath>.
