@@ -45,3 +45,7 @@ This problem tests out how well do you know your ASCII notations and their respe
 7) https://codeforces.com/problemset/problem/1325/B [EASY]
 
 The problem can be reduced to a problem of finding distinct elements in the input array given because the we need to copy the sequence input in the array "n" times i.e. the number of elements in the input array, the longest increasing subsequence can be formed by picking the elements in the concatenated arrays starting from the smallest to the largest i.e. sorted subsequence.
+
+8) https://codeforces.com/problemset/problem/1389/A [EASY]
+
+This problem requires one to think mathematically in a way that if a solution existed i.e. a pair (x,y) such that x doesn't divide y completely then this would mean that (x,y) exists such that l <= LCM(x,y) <= r well in such a case as we need to find just one pair we could have easily chosen the pair (x, LCM(x,y)) as we are sure that the solution falls within the specified constraints. This observation provides us an important insight into the problem that we could just select a pair like (l, 2xl) if it falls within the specified constraints i.e. selecting a pair where x divided y completely. Hence the solution just boils down to checking if (2xl) falls within the range or not if yes then (l,2l) is the answer and if not then there isn't any pair that falls within the range.
