@@ -70,3 +70,7 @@ EVEN + EVEN = EVEN
 ODD + ODD = EVEN
 
 Once we know above the problem just reduces down to finding the number of even and odd integers in the specified ranges [1,A] and [1,B] and then evaluating the product sum : (oddA x oddB) + (evenA x evenB) which gives the final answer.
+
+3) https://www.codechef.com/DEC20B/problems/VACCINE2 [EASY]
+
+This is a fairly easy implementation problem that essentially asks you to implement a solution in which we just need to evaluate the number of people who are at risk and who are not at risk and then just maintain a counter to count the number of days that we require to vaccinate them decrementing the count by the number of people we can vaccinate until both are 0.
