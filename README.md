@@ -55,3 +55,9 @@ December 7, 2020
 Problem Editorial on Codeforces : https://codeforces.com/blog/entry/80809
 
 This problem requires one to think mathematically in a way that if a solution existed i.e. a pair (x,y) such that x doesn't divide y completely then this would mean that (x,y) exists such that l <= LCM(x,y) <= r well in such a case as we need to find just one pair we could have easily chosen the pair (x, LCM(x,y)) as we are sure that the solution falls within the specified constraints. This observation provides us an important insight into the problem that we could just select a pair like (l, 2xl) if it falls within the specified constraints i.e. selecting a pair where x divided y completely. Hence the solution just boils down to checking if (2xl) falls within the range or not if yes then (l,2l) is the answer and if not then there isn't any pair that falls within the range.
+
+- Code Chef
+
+1) https://www.codechef.com/DEC20B/problems/VACCINE1 [EASY]
+
+This problem was an easy one that required us to just implement what's been stated in the problem. If both the companies produced the vaccines on the same day then the total number of days required to meet the requirements is just (D1/D2 - 1) + ceil(P/vaccinesProducedInOneDay) we need to add (D1-1) because it has been stated in the problem statement that we are currently at day 1. In the other case when both companies start producing vaccines on different days we need to do conditional testing based on which company started producing the vaccine first and decrease the value of P till both companies start producing together and increment the counter for the number of days accordingly.
