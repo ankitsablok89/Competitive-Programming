@@ -120,3 +120,7 @@ P.S. : Please also read the associated PDF provided by the website in order to f
 4) https://projecteuler.net/problem=6 [EASY]
 
 This problem is fairly easy implementation problem wherein all we need to do is to sum the natural numbers from 1..100 and square it up. This can either be done through implementation or using the arithmetic progression formula (n(n+1)/2)^2 and using the formula for evaluating the sum of squares n(n+1)(2n+1)/6.
+
+5) https://projecteuler.net/problem=5 [EASY]
+
+This problem doesn't require programming at all as one could just obtain the answer to the question by multiplying the highest powers of primes from 1..20 but we can also code up a solution using infinite loops by testing the divisibility of numbers from 1...20 for any i in the range of ints.
