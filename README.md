@@ -91,7 +91,22 @@ Just implement what has been asked in the problem i.e. scan the input string, st
 
 December 19, 2020
 
+- Codeforces
+
 1) https://codeforces.com/contest/1459/problem/A [EASY]
 
 I participated in Codeforces Round #691 [Div-2] and solved this easy problem which basically amounted to calculating the number of digits for player A and player B and checking whichever is greater leading to printing the appropriate string "RED", "BLUE" or "EQUAL" (this will be the case when both numbers will have equal probability of winning the game).
 
+- Project Euler
+
+1) https://projecteuler.net/problem=1 [EASY]
+
+This problem is very easy, one just needs to implement what has been asked for i.e. just run a loop and test for numbers that are either divisible by 3 or by 5 and add them to the running sum. Once all the numbers upto and including 999 have been encountered print the sum.
+
+P.S. : Please also read the associated PDF provided by the website in order to find more solutions that don't really require any implementation.
+
+2) https://projecteuler.net/problem=2 [EASY]
+
+Another very easy problem just requiring some implementation to find fibonacci numbers and testing which one's are even and adding them to the running sum.
+
+P.S. : Please also read the associated PDF provided by the website in order to find more solutions that provide novel approaches of speeding up the solutions.
