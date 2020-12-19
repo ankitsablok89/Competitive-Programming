@@ -110,3 +110,9 @@ P.S. : Please also read the associated PDF provided by the website in order to f
 Another very easy problem just requiring some implementation to find fibonacci numbers and testing which one's are even and adding them to the running sum.
 
 P.S. : Please also read the associated PDF provided by the website in order to find more solutions that provide novel approaches of speeding up the solutions.
+
+3) https://projecteuler.net/problem=3 [EASY]
+
+This problem although easy does require some thought when it comes to implementation. The trick here is to start testing the divisibility of the numbers from 2 and then if we found a divisor we exhaust that divisor by dividing the number with it until it cannot be divided further and that is when we move on to the next number.
+
+P.S. : Please also read the associated PDF provided by the website in order to find more solutions that provide novel approaches of speeding up the solutions.
