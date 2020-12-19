@@ -88,3 +88,10 @@ December 9, 2020
 1) https://codeforces.com/problemset/problem/155/A [EASY]
 
 Just implement what has been asked in the problem i.e. scan the input string, store the numbers i.e. individual tokens of the string into the array. Maintain a min and max variable initialized to the starting element of the array and then iterate through the array updating the number of amazing contests and min and max values.
+
+December 19, 2020
+
+1) https://codeforces.com/contest/1459/problem/A [EASY]
+
+I participated in Codeforces Round #691 [Div-2] and solved this easy problem which basically amounted to calculating the number of digits for player A and player B and checking whichever is greater leading to printing the appropriate string "RED", "BLUE" or "EQUAL" (this will be the case when both numbers will have equal probability of winning the game).
+
