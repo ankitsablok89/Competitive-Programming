@@ -116,3 +116,7 @@ P.S. : Please also read the associated PDF provided by the website in order to f
 This problem although easy does require some thought when it comes to implementation. The trick here is to start testing the divisibility of the numbers from 2 and then if we found a divisor we exhaust that divisor by dividing the number with it until it cannot be divided further and that is when we move on to the next number.
 
 P.S. : Please also read the associated PDF provided by the website in order to find more solutions that provide novel approaches of speeding up the solutions.
+
+4) https://projecteuler.net/problem=6 [EASY]
+
+This problem is fairly easy implementation problem wherein all we need to do is to sum the natural numbers from 1..100 and square it up. This can either be done through implementation or using the arithmetic progression formula (n(n+1)/2)^2 and using the formula for evaluating the sum of squares n(n+1)(2n+1)/6.
