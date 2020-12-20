@@ -124,3 +124,11 @@ This problem is fairly easy implementation problem wherein all we need to do is 
 5) https://projecteuler.net/problem=5 [EASY]
 
 This problem doesn't require programming at all as one could just obtain the answer to the question by multiplying the highest powers of primes from 1..20 but we can also code up a solution using infinite loops by testing the divisibility of numbers from 1...20 for any i in the range of ints.
+
+December 20, 2020
+
+- Codeforces
+
+1) https://codeforces.com/problemset/problem/723/A [EASY]
+
+Fairly easy implementation problem. As all the friends live in a straight line we just need to sort the distance and make sure they meet in the middle i.e. the middle friend's house. Either we can use sorting or we can make use of the property that max(xi's) - min(xi's) is ideally the formula that we will be using to evaluate the distance. The proof is if we sort the 3 distances the distance travelled to meet in the middle = x2-x1 + x3-x2 which cancels out x2 hence resulting in x3-x1.
