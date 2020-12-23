@@ -140,3 +140,7 @@ December 23, 2020
 1) https://projecteuler.net/problem=25 [EASY]
 
 This problem is fairly easy to implement if we use a specialized programming language like Python or Java's BigInteger. The problem requires one to think about how basic big integer addition works if coding a solution in C++. There is also an another way of calculating the first 1000 digit fibonacci number using a fomula that was pointed out in the forums namely "Binet's" formula (please refer : https://projecteuler.net/thread=25 for more details on how that formula can be used). Also Binet's formula for reference : http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html
+
+2) https://projecteuler.net/problem=16 [EASY]
+
+ This problem again is fairly easy if you use a programming language that provides you with libraries to work on big integers. Coding up a solution in C++ requires you to think a little bit about how multiplication actually works and how you can use data structures provided in the language to make the big integer multiplication work for you. We again use the additive carry over process as used when multiplying by hand when solving this problem.
