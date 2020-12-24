@@ -178,3 +178,9 @@ This again is a very trivial implementatio problem that requires some knowledge 
 2.2) https://www.codespeedy.com/remove-double-quotes-from-string-in-cpp/
 
 2.3) https://stackoverflow.com/questions/688039/how-can-i-build-a-stdvectorstdstring-and-then-sort-them
+
+- CSES Problem Set
+
+1) https://cses.fi/problemset/task/1068 [EASY]
+
+I am just starting out with the book and the problems on this website. A simple problem that asks you to just implement with what's being said in the problem statement. Only takeaway from this problem is to be careful of the data type you choose for evaluating the sequence. I chose unsigned long long just to avoid any range concerns.
