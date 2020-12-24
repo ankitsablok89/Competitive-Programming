@@ -184,3 +184,7 @@ This again is a very trivial implementatio problem that requires some knowledge 
 1) https://cses.fi/problemset/task/1068 [EASY]
 
 I am just starting out with the book and the problems on this website. A simple problem that asks you to just implement with what's being said in the problem statement. Only takeaway from this problem is to be careful of the data type you choose for evaluating the sequence. I chose unsigned long long just to avoid any range concerns.
+
+2) https://cses.fi/problemset/task/1083/ [EASY]
+
+This again is a very easy implementation problem. The trick is it requires you to know the formula for sum of first n natural numbers i.e. an arithmetic progression n x (n+1)/2 and then to find the missing number subtract the sum of the input n-1 numbers from it.
