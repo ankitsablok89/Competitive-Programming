@@ -188,3 +188,9 @@ I am just starting out with the book and the problems on this website. A simple 
 2) https://cses.fi/problemset/task/1083/ [EASY]
 
 This again is a very easy implementation problem. The trick is it requires you to know the formula for sum of first n natural numbers i.e. an arithmetic progression n x (n+1)/2 and then to find the missing number subtract the sum of the input n-1 numbers from it.
+
+- Kattis
+
+1) https://open.kattis.com/contests/mcpc19open/problems/basketballoneonone [EASY]
+
+Just implement what's asked in the problem. The problem can be solved naturally by evaluating the scores and then printing the character which has a greater score as done in my solution.
