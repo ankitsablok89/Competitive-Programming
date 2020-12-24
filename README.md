@@ -144,3 +144,27 @@ This problem is fairly easy to implement if we use a specialized programming lan
 2) https://projecteuler.net/problem=16 [EASY]
 
  This problem again is fairly easy if you use a programming language that provides you with libraries to work on big integers. Coding up a solution in C++ requires you to think a little bit about how multiplication actually works and how you can use data structures provided in the language to make the big integer multiplication work for you. We again use the additive carry over process as used when multiplying by hand when solving this problem.
+
+ December 24, 2020
+
+- Project Euler
+
+1) https://projecteuler.net/problem=17 [EASY]
+
+This problem is mostly an implementation problem that requires some prior knowledge of how to perform file input/output in C++. The logic used to compute this is simple. First create a text file storing space separate (key, value) pairs of the form (number (space) english_representation). Read this file as an input into a global STL map such that we can re-use the string representations for numbers we still want to convert to their english representations. Conversion of numbers to their english equivalents mostly depends on if the number is two/three digit number. If it's two digit we just compute num/10 and multiply that with 10 to get the first part of the english string and the remaining part i.e. num%10 we can obtain the english representation similarly by just checking in the global map. Once we have the complete representation we just add this repesentation to the global map such that it can be re-used when computing english statements for three digit numbers. We also code up a utility method to count the number of spaces in a string as that will help us maintain the count in a consistent state. Some useful reference to read while solving this problem are as follows -:
+
+1.1) https://www.cplusplus.com/doc/tutorial/files/
+
+1.2) https://stackoverflow.com/questions/3910326/c-read-file-line-by-line-then-split-each-line-using-the-delimiter
+
+1.3) https://stackoverflow.com/questions/7868936/read-file-line-by-line-using-ifstream-in-c
+
+1.4) https://stackoverflow.com/questions/14030162/make-pair-of-stdmap-how-to-make-a-pair-only-if-the-key-is-not-listed-and-up
+
+1.5) https://stackoverflow.com/questions/26281979/c-loop-through-map
+
+1.6) https://www.javatpoint.com/cpp-int-to-string
+
+1.7) https://stackoverflow.com/questions/1939953/how-to-find-if-a-given-key-exists-in-a-c-stdmap
+
+1.8) https://www.geeksforgeeks.org/stdstringappend-in-c/
