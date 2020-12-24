@@ -168,3 +168,13 @@ This problem is mostly an implementation problem that requires some prior knowle
 1.7) https://stackoverflow.com/questions/1939953/how-to-find-if-a-given-key-exists-in-a-c-stdmap
 
 1.8) https://www.geeksforgeeks.org/stdstringappend-in-c/
+
+2) https://projecteuler.net/problem=22 [EASY]
+
+This again is a very trivial implementatio problem that requires some knowledge of string parsin and file I/O in C++. Once you have stored the strings into a vector we can just use the standard std :: sort to sort the vector of strings and then maintain a dictionary of the english alphabet to evaluate the arithmetic value of the string according to the conditions laid out in the problem. Some references that might be useful for this problem are as follows -:
+
+2.1) https://stackoverflow.com/questions/1894886/parsing-a-comma-delimited-stdstring
+
+2.2) https://www.codespeedy.com/remove-double-quotes-from-string-in-cpp/
+
+2.3) https://stackoverflow.com/questions/688039/how-can-i-build-a-stdvectorstdstring-and-then-sort-them
