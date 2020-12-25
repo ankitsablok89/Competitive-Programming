@@ -194,3 +194,11 @@ This again is a very easy implementation problem. The trick is it requires you t
 1) https://open.kattis.com/contests/mcpc19open/problems/basketballoneonone [EASY]
 
 Just implement what's asked in the problem. The problem can be solved naturally by evaluating the scores and then printing the character which has a greater score as done in my solution.
+
+December 25, 2020
+
+- Project Euler
+
+1) https://projecteuler.net/problem=29 [EASY]
+
+This problem builds on a previous problem of computing power of 2. The idea is to perform iterative multiplication but taking special care of the "carry" as in this case carry can be a multidigit number. One also needs to use "set" C++ data structure in order to check if we have already computed an integer combination or not.
