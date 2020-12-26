@@ -202,3 +202,11 @@ December 25, 2020
 1) https://projecteuler.net/problem=29 [EASY]
 
 This problem builds on a previous problem of computing power of 2. The idea is to perform iterative multiplication but taking special care of the "carry" as in this case carry can be a multidigit number. One also needs to use "set" C++ data structure in order to check if we have already computed an integer combination or not.
+
+December 26, 2020
+
+- Project Euler
+
+1) https://projecteuler.net/problem=20 [EASY]
+
+This problem again builds on the same logic of using iterative digit multiplication with carry-over addition. Only control required is over the data structure i.e. vector manipulation. The code can then be used to evaluate any factorial for any "n".
