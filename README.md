@@ -210,3 +210,11 @@ December 26, 2020
 1) https://projecteuler.net/problem=20 [EASY]
 
 This problem again builds on the same logic of using iterative digit multiplication with carry-over addition. Only control required is over the data structure i.e. vector manipulation. The code can then be used to evaluate any factorial for any "n".
+
+December 28, 2020
+
+- Project Euler
+
+1) https://projecteuler.net/problem=42 [EASY]
+
+This problem is another implementation problem. The way to solve this problem was to figure out the maximum length word in the sequence of input words. Once that is figured out one needs to evaluate a set of triangular numbers till the upper bound = 26 * (length of the word). Iterate over the sequence of words provided in the file, maintain a running count variable and update the count of triangular words once we find that ASCII evaluation of the word is indeed a triangular number found in the triangular number set. 
