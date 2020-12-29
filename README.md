@@ -235,6 +235,10 @@ Mostly just used the algorithm implementation for Sieve of Eratosthenes to find 
 
 This problem again follows from the algorithm implementation for Sieve of Eratosthenes to find prime numbers in the range [1...N]. Used the algorithm first to find out the number of primes till 2e+6 + 1 and sum all them up by maintain a running sum. Please refer the associated pdf and algorithm implementation for more details.
 
+3) https://projecteuler.net/problem=40 [EASY]
+
+Yet another implementation problem that didn't really require much mathematical rigor so to speak. Just append the numbers to an empty string starting with 1 and check if the string length exceeds 1 million at some point. Code up a function to fetch the integer value of a digit and multiply the values to produce the result.
+
 - CSES Problem Set
 
 1) https://cses.fi/problemset/task/1618 [EASY]
