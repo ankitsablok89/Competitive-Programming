@@ -229,4 +229,8 @@ December 29, 2020
 
 1) https://projecteuler.net/problem=7 [EASY]
 
-Mostly just used the Algorithm implementation for Sieve of Eratosthenes to find prime numbers in the range [1...N]. Used the algorithm first to find out the number of primes till 1e+6 and as the number was > 10,000 just printed the 10,001st index in the vector returned by the sieve method. Please refer the associated pdf and algorithm implementation for more details.
+Mostly just used the algorithm implementation for Sieve of Eratosthenes to find prime numbers in the range [1...N]. Used the algorithm first to find out the number of primes till 1e+6 and as the number was > 10,000 just printed the 10,001st index in the vector returned by the sieve method. Please refer the associated pdf and algorithm implementation for more details.
+
+2) https://projecteuler.net/problem=10 [EASY]
+
+This problem again follows from the algorithm implementation for Sieve of Eratosthenes to find prime numbers in the range [1...N]. Used the algorithm first to find out the number of primes till 2e+6 + 1 and sum all them up by maintain a running sum. Please refer the associated pdf and algorithm implementation for more details.
