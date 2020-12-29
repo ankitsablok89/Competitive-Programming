@@ -234,3 +234,13 @@ Mostly just used the algorithm implementation for Sieve of Eratosthenes to find 
 2) https://projecteuler.net/problem=10 [EASY]
 
 This problem again follows from the algorithm implementation for Sieve of Eratosthenes to find prime numbers in the range [1...N]. Used the algorithm first to find out the number of primes till 2e+6 + 1 and sum all them up by maintain a running sum. Please refer the associated pdf and algorithm implementation for more details.
+
+- CSES Problem Set
+
+1) https://cses.fi/problemset/task/1618 [EASY]
+
+This problem is an introductory problem of the CSES problem set and relies on the knowledge of evaluating the number of trailing zeros in n!. Careful observation and reading of the problem statement leads to an insight that the number of trailing zeros is mostly governed by the powers of 5 present in the numbers that form n!. For instance if n = 20, then
+
+n! = 20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1
+
+Please refer https://www.purplemath.com/modules/factzero.htm or https://www.youtube.com/watch?v=wkvVdggCSeo&ab_channel=ScalerAcademy to understand why its calculated the way it is. The algorithmic time complexity of this algorithm is O(log(n)) with logarithm to the base 5.
