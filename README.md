@@ -248,3 +248,11 @@ This problem is an introductory problem of the CSES problem set and relies on th
 n! = 20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1
 
 Please refer https://www.purplemath.com/modules/factzero.htm or https://www.youtube.com/watch?v=wkvVdggCSeo&ab_channel=ScalerAcademy to understand why its calculated the way it is. The algorithmic time complexity of this algorithm is O(log(n)) with logarithm to the base 5.
+
+January 7, 2021
+
+- Code Chef
+
+1) https://www.codechef.com/JAN21C/problems/DIVTHREE [EASY]
+
+This is an implementation problem in which we just want to sum up the number of problems that have been set by all N problem setters and then divide that sum by the number K which is the number of problems each contest can have. If this division results in a number <= D then we output that number and in the case if the number turns out to be greater than D then we just output D as chef wants to only plan for the next D days.
