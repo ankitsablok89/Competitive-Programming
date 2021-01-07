@@ -256,3 +256,7 @@ January 7, 2021
 1) https://www.codechef.com/JAN21C/problems/DIVTHREE [EASY]
 
 This is an implementation problem in which we just want to sum up the number of problems that have been set by all N problem setters and then divide that sum by the number K which is the number of problems each contest can have. If this division results in a number <= D then we output that number and in the case if the number turns out to be greater than D then we just output D as chef wants to only plan for the next D days.
+
+2) https://www.codechef.com/JAN21C/submit/DECODEIT [EASY]
+
+This is another implementation problem that requires you to do what the problem asks you to do. In order to decode the characters of the string we just need to follow the binary search approach to decode the exact location of the character in the ALPHABET array of characters.
