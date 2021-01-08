@@ -266,3 +266,11 @@ This is another implementation problem that requires you to do what the problem 
 1) https://projecteuler.net/problem=26 [EASY]
 
 This problem does require some intution and some thinking regarding how one perform decimal division for unit fractions or in the cases when numerator < denominator. We use the technique of iterative multiplication of remainder with 10 and performing successive divisions with the denominator until we have encountered a 0 remainder in which case there is no recurring cycles or if we have encountered a numerator previously in which case we can stop the process of division and print out the pattern starting with the quotient of the division when we first encountered the numerator.
+
+January 9, 2021
+
+- Project Euler
+
+1) https://projecteuler.net/problem=12 [EASY]
+
+I implemented this problem using a naive approach of sequentially iterating through triangular numbers and then finding the prime factorization of those numbers. Once we have the prime factorization of the triangular number in the form N = p^a * b^q we can easily evaluate the number of divisors of the number using the formula : (a+1) * (b+1). Please read the supported pdf to know more about how we can optimize the implementation to obtain prime factorization in an intelligent manner.
